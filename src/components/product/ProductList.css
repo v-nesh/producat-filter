@@ -1,0 +1,15 @@
+.header {
+  background: var(--dark-blue);
+}
+
+.product-container {
+  min-height: 90%;
+  background-color: var(--color-gray);
+}
+
+@media screen and (max-width: 600px) {
+  .products {
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    padding: 1rem;
+  }
+}
